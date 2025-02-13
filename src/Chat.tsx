@@ -4,7 +4,7 @@ export interface Message {
   id: string
   content: string
   timestamp: string
-  isUser: boolean // true: 사용자가 보낸 메시지, false: 상대방 메시지
+  type: "other" | "user" // other: 상대방 메시지, false: 사용자가 보낸 메시지
 }
 
 export interface ChatProps {
@@ -60,12 +60,12 @@ function Chat({ messages, onSendMessage, height = "100%" }: ChatProps) {
           <div
             key={message.id}
             className={`flex ${
-              message.isUser ? "justify-end" : "justify-start"
+              message.type === "user" ? "justify-end" : "justify-start"
             }`}
           >
             <div
               className={`max-w-xs p-3 rounded-lg shadow ${
-                message.isUser
+                message.type
                   ? "bg-blue-500 text-white rounded-br-none"
                   : "bg-gray-300 text-black rounded-bl-none"
               }`}
@@ -75,7 +75,7 @@ function Chat({ messages, onSendMessage, height = "100%" }: ChatProps) {
               </p>
               <span
                 className={`block text-xs text-right mt-1 opacity-75 ${
-                  message.isUser ? "text-end" : "text-start"
+                  message.type === "user" ? "text-end" : "text-start"
                 }`}
               >
                 {new Date(message.timestamp as string).toLocaleTimeString([], {
@@ -104,7 +104,7 @@ function Chat({ messages, onSendMessage, height = "100%" }: ChatProps) {
           <button
             type="button"
             onClick={handleSend}
-            className="px-4 py-2 w-max bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
+            className="px-4 py-2 whitespace-nowrap bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
           >
             전송
           </button>
