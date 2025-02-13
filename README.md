@@ -1,6 +1,7 @@
 # react-iphone-chat
 
 iPhone 메시지 스타일의 채팅 컴포넌트를 React와 TypeScript로 구현한 라이브러리입니다.
+![alt text](assets/screenshot/chat.png)
 
 ## 주요 특징
 
@@ -75,8 +76,8 @@ export default App
   export interface Message {
     id: string
     content: string
-    timestamp: Date | string
-    isUser: boolean // 사용자가 보낸 메시지인지 여부
+    timestamp: string
+    type: "other" | "user" // other: 상대방 메시지, false: 사용자가 보낸 메시지
   }
   ```
 
