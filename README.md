@@ -15,8 +15,6 @@ iPhone 메시지 스타일의 채팅 컴포넌트를 React와 TypeScript로 구�
 npm install react-iphone-chat
 ```
 
-````
-
 또는
 
 ```bash
@@ -108,4 +106,7 @@ MIT License
 
 이와 같이 README 파일을 포함하면, 사용자들이 패키지의 설치, 사용법, 그리고 Tailwind CSS 설정 방법 등을 쉽게 확인할 수 있어 보다 원활한 사용 경험을 제공할 수 있습니다.
 ```
-````
+
+```
+
+```

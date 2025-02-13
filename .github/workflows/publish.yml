@@ -2,6 +2,10 @@ name: Publish to npm
 
 on:
   push:
+    branches: [main]
+    paths:
+      - "package.json"
+      - "src/**"
     tags:
       - "v*.*.*" # 버전 태그를 사용하여 배포할 경우
 
