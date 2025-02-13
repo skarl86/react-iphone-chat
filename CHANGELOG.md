@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/skarl86/react-iphone-chat/compare/v1.1.0...v1.1.1) (2025-02-13)
+
+
+### Bug Fixes
+
+* Apply `whitespace-nowrap` css on send button ([a130fad](https://github.com/skarl86/react-iphone-chat/commit/a130fadae82d356ee555b6555151011c17e79fcb))
+
 # [1.1.0](https://github.com/skarl86/react-iphone-chat/compare/v1.0.1...v1.1.0) (2025-02-13)
 
 
