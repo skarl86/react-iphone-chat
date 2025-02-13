@@ -27,6 +27,17 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Check if NODE_AUTH_TOKEN is set
+        run: |
+          if [ -z "${NODE_AUTH_TOKEN}" ]; then
+            echo "Token is NOT set"
+            exit 1
+          else
+            echo "Token is set"
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Publish to npm
         run: npm publish
         env:
