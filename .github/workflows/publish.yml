@@ -1,6 +1,13 @@
 name: Publish to npm
 
 on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "배포할 버전을 입력하세요 (예: 1.0.0)"
+        required: true
+        default: "1.0.0"
+
   push:
     branches: [main]
     paths:
