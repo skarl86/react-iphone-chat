@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/skarl86/react-iphone-chat/compare/v1.1.1...v1.1.2) (2025-02-13)
+
+
+### Bug Fixes
+
+* Add screentshot to README ([1a481fa](https://github.com/skarl86/react-iphone-chat/commit/1a481fa2d57ce0332170e5605ad1bf49d26749eb))
+
 ## [1.1.1](https://github.com/skarl86/react-iphone-chat/compare/v1.1.0...v1.1.1) (2025-02-13)
 
 
