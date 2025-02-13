@@ -37,10 +37,11 @@ jobs:
       - name: Check if NODE_AUTH_TOKEN is set
         run: |
           if [ -z "${NODE_AUTH_TOKEN}" ]; then
-            echo "Token is NOT set"
+            echo "❌ ERROR: NPM Authentication Token is NOT set"
+            echo "Please configure the NPM_TOKEN secret in your repository settings"
             exit 1
           else
-            echo "Token is set"
+            echo "✅ NPM Authentication Token is set successfully"
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
