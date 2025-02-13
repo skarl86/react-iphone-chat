@@ -8,6 +8,13 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwindcss",
+    "iphone-style",
+    "chat"
+  ],
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build"
