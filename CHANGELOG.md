@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/skarl86/react-iphone-chat/compare/v1.1.3...v1.1.4) (2025-03-17)
+
+
+### Bug Fixes
+
+* Apply tailwindcss class on Component ([c3ad917](https://github.com/skarl86/react-iphone-chat/commit/c3ad917ec11c88413542ac1c362fa9b16c31b4fa))
+
 ## [1.1.3](https://github.com/skarl86/react-iphone-chat/compare/v1.1.2...v1.1.3) (2025-03-17)
 
 
