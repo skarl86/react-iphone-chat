@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/skarl86/react-iphone-chat/compare/v1.1.5...v1.1.6) (2025-03-17)
+
+
+### Bug Fixes
+
+* Add repository url to package.json ([86b2442](https://github.com/skarl86/react-iphone-chat/commit/86b2442966cb17486ba5cfd4f55c09cf4fc9090e))
+
 ## [1.1.5](https://github.com/skarl86/react-iphone-chat/compare/v1.1.4...v1.1.5) (2025-03-17)
 
 

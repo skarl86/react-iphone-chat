@@ -1,6 +1,6 @@
 {
   "name": "react-iphone-chat",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "iPhone 메시지 스타일의 채팅 컴포넌트 (React, TypeScript, Tailwind CSS)",
   "main": "dist/index.js",
   "sideEffects": [
