@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/skarl86/react-iphone-chat/compare/v1.1.4...v1.1.5) (2025-03-17)
+
+
+### Bug Fixes
+
+* Fix wrong message type ([588719d](https://github.com/skarl86/react-iphone-chat/commit/588719d98ca47678c4e0d50fd1c17f843577f9ee))
+
 ## [1.1.4](https://github.com/skarl86/react-iphone-chat/compare/v1.1.3...v1.1.4) (2025-03-17)
 
 
