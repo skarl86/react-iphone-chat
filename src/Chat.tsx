@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react"
+import "./index.css"
 
 export interface Message {
   id: string

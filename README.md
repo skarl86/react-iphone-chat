@@ -41,7 +41,7 @@ const App = () => {
       id: "1",
       content: "안녕하세요!",
       timestamp: new Date().toISOString(),
-      isUser: false,
+      type: "other",
     },
   ])
 
@@ -50,7 +50,7 @@ const App = () => {
       id: (messages.length + 1).toString(),
       content: msg,
       timestamp: new Date().toISOString(),
-      isUser: true,
+      type: "user",
     }
     setMessages([...messages, newMsg])
   }
