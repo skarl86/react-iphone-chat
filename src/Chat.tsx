@@ -66,7 +66,7 @@ function Chat({ messages, onSendMessage, height = "100%" }: ChatProps) {
           >
             <div
               className={`max-w-xs p-3 rounded-lg shadow ${
-                message.type
+                message.type === "user"
                   ? "bg-blue-500 text-white rounded-br-none"
                   : "bg-gray-300 text-black rounded-bl-none"
               }`}
